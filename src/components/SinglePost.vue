@@ -13,7 +13,8 @@ const snippet = computed(() => {
 
 <template>
   <div class="post">
-    <router-link to="/Details">
+    <!-- 使用name来定位可以进行传递其他值 -->
+    <router-link :to="{name: 'Details',params:{id:post.id}}">
         <h3>{{post.title}} </h3>
         <p>{{snippet}} </p>
         <span v-for="tag in post.tags" :key="tag">#{{tag}} </span>
@@ -22,5 +23,7 @@ const snippet = computed(() => {
 </template>
 
 <style>
-
+.post{
+  margin-bottom: 30px;
+}
 </style>

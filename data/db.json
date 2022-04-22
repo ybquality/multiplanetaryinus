@@ -1,24 +1,24 @@
 {
-    "posts":[
-        {
-            "title": "模拟数据标题",
-            "body": "模拟数据内容",
-            "id": 1,
-            "tags":[
-                "vue3",
-                "node.js",
-                "inus"
-            ]
-        },
-        {
-            "title": "模拟数据标题2",
-            "body": "模拟数据内容2",
-            "id": 2,
-            "tags":[
-                "vue3",
-                "node.js",
-                "inus"
-            ]
-        }
-    ]
+  "posts": [
+    {
+      "id": 47611,
+      "title": "111",
+      "body": "1111",
+      "tags": [
+        "vue",
+        "node",
+        "c"
+      ]
+    },
+    {
+      "id": 47612,
+      "title": "22222222",
+      "body": "2222222",
+      "tags": [
+        "vue",
+        "node",
+        "c"
+      ]
+    }
+  ]
 }
